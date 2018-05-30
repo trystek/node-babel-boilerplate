@@ -1,4 +1,6 @@
-# Node Babel boilerplate
+# Node-Babel boilerplate
+
+Simple NodeJS boilerplate with Babel transpiler and Nodemon watcher.
 
 ## Commands
 
