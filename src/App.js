@@ -1,5 +1,5 @@
 class App {
-    start() {
+    start = () => {
         console.log('Hello world!');
     }
 }
