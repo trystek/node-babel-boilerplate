@@ -1,6 +1,6 @@
 # Node-Babel boilerplate
 
-Simple NodeJS boilerplate with Babel transpiler and Nodemon watcher.
+Simple NodeJS boilerplate with Babel transpiler, Nodemon watcher and Jest testing.
 
 ## Commands
 
@@ -27,3 +27,11 @@ npm start
 ```
 
 Build and run.
+
+### Test
+
+```Shell
+npm test
+```
+
+Build and run tests.
