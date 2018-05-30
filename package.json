@@ -1,0 +1,26 @@
+{
+  "name": "node-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Babel boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trystek/node-babel-boilerplate.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trystek/node-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/trystek/node-babel-boilerplate#readme",
+  "scripts": {
+    "build": "rimraf ./dist && babel ./src --out-dir ./dist",
+    "dev": "nodemon --watch src --exec \"babel-node src\"",
+    "prestart": "npm run --silent build",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.5",
+    "rimraf": "^2.6.2"
+  }
+}
